@@ -1,0 +1,37 @@
+﻿Build started 22.03.2015 21:58:39.
+     1>Project "D:\projects\muparsersse\asmjit\asmjit.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "AsmJit-0.8.6\AsmJit\AssemblerX86X64.cpp" "AsmJit-0.8.6\AsmJit\CompilerX86X64.cpp" "AsmJit-0.8.6\AsmJit\CpuInfo.cpp" "AsmJit-0.8.6\AsmJit\Defs.cpp" "AsmJit-0.8.6\AsmJit\Lock.cpp" "AsmJit-0.8.6\AsmJit\Logger.cpp" "AsmJit-0.8.6\AsmJit\LoggerX86X64.cpp" "AsmJit-0.8.6\AsmJit\LoggerX86X64Dump.cpp" "AsmJit-0.8.6\AsmJit\MemoryManager.cpp" "AsmJit-0.8.6\AsmJit\SerializerX86X64.cpp" "AsmJit-0.8.6\AsmJit\Util.cpp" "AsmJit-0.8.6\AsmJit\VirtualMemory.cpp"
+         VirtualMemory.cpp
+         Util.cpp
+         SerializerX86X64.cpp
+         MemoryManager.cpp
+         LoggerX86X64Dump.cpp
+         LoggerX86X64.cpp
+         Logger.cpp
+         Lock.cpp
+         Defs.cpp
+         CpuInfo.cpp
+         CompilerX86X64.cpp
+         AssemblerX86X64.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\projects\muparsersse\example\Debug\asmjit.lib" /NOLOGO Debug\AssemblerX86X64.obj
+         Debug\CompilerX86X64.obj
+         Debug\CpuInfo.obj
+         Debug\Defs.obj
+         Debug\Lock.obj
+         Debug\Logger.obj
+         Debug\LoggerX86X64.obj
+         Debug\LoggerX86X64Dump.obj
+         Debug\MemoryManager.obj
+         Debug\SerializerX86X64.obj
+         Debug\Util.obj
+         Debug\VirtualMemory.obj
+     1>Logger.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         asmjit.vcxproj -> D:\projects\muparsersse\example\Debug\asmjit.lib
+     1>Done Building Project "D:\projects\muparsersse\asmjit\asmjit.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05

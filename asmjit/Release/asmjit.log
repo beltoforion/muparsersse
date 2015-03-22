@@ -1,0 +1,35 @@
+﻿Build started 22.03.2015 22:03:02.
+     1>Project "D:\projects\muparsersse\asmjit\asmjit.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "AsmJit-0.8.6\AsmJit\AssemblerX86X64.cpp" "AsmJit-0.8.6\AsmJit\CompilerX86X64.cpp" "AsmJit-0.8.6\AsmJit\CpuInfo.cpp" "AsmJit-0.8.6\AsmJit\Defs.cpp" "AsmJit-0.8.6\AsmJit\Lock.cpp" "AsmJit-0.8.6\AsmJit\Logger.cpp" "AsmJit-0.8.6\AsmJit\LoggerX86X64.cpp" "AsmJit-0.8.6\AsmJit\LoggerX86X64Dump.cpp" "AsmJit-0.8.6\AsmJit\MemoryManager.cpp" "AsmJit-0.8.6\AsmJit\SerializerX86X64.cpp" "AsmJit-0.8.6\AsmJit\Util.cpp" "AsmJit-0.8.6\AsmJit\VirtualMemory.cpp"
+         AssemblerX86X64.cpp
+         CompilerX86X64.cpp
+         CpuInfo.cpp
+         Defs.cpp
+         Lock.cpp
+         Logger.cpp
+         LoggerX86X64.cpp
+         LoggerX86X64Dump.cpp
+         MemoryManager.cpp
+         SerializerX86X64.cpp
+         Util.cpp
+         VirtualMemory.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\projects\muparsersse\example\Release\asmjit.lib" /NOLOGO /LTCG Release\AssemblerX86X64.obj
+         Release\CompilerX86X64.obj
+         Release\CpuInfo.obj
+         Release\Defs.obj
+         Release\Lock.obj
+         Release\Logger.obj
+         Release\LoggerX86X64.obj
+         Release\LoggerX86X64Dump.obj
+         Release\MemoryManager.obj
+         Release\SerializerX86X64.obj
+         Release\Util.obj
+         Release\VirtualMemory.obj
+         asmjit.vcxproj -> D:\projects\muparsersse\example\Release\asmjit.lib
+     1>Done Building Project "D:\projects\muparsersse\asmjit\asmjit.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.82
