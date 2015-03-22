@@ -9,12 +9,17 @@
   Ingo Berg
 
 
-This is an experimental version of muParser based on the asmjit just in time compiler.
+This is a version of muparser for floating point data based on the asmjit just 
+in time compiler. Its performance is significantly better than the original muparser
+due to using just in time expression compilation.
 
 
 
 Revision History:
 -----------------
+V1.0.5
+- Migrated to VS2013
+- switched to UNICODE
 
 V1.0.3
 - if-then-else operator added
